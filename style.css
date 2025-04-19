@@ -1,0 +1,55 @@
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color:  #87cefa;
+  cursor: pointer;
+}
+/* Style for nav-link */
+.nav-link {
+  text-decoration: none;
+}
+/* Style for nav-link hover*/
+.nav-link:hover {
+  color: #87cefa;
+  text-decoration: underline;
+}
+/* Style for activity button link */
+.activity {
+  text-decoration: none;
+}
+/* Style for activity button hover */
+.activity:hover {
+  color: white;
+  background-color: #87cefa;
+  font-size: 35px;
+}
+/* Style for activity button active */
+.activity:active {
+  width: 238px;
+  height: 198px;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+/* Style for btn */
+.btn {
+  border: 1px solid #2176FF;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #2176FF;
+  }
+/* Style for btn hover*/
+.btn:hover {
+  border: 1.5px solid #87cefa;
+  transition: border 0.3s ease;
+}
+/* Style for btn active*/
+.btn:active {
+  border: 2px solid #191970;
+  color: #191970;
+  font-weight: bold;
+  padding: 8px;
+}
